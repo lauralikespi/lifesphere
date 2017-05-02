@@ -1,0 +1,131 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  	position: relative;
+}
+.container {
+	padding-bottom: 200px;
+}
+.heading {
+	height: 25%;
+}
+
+.headingText {
+	color: black;
+	font-size: 32px;
+	position: absolute;
+	top: 50px;
+}
+
+.socialMedia {
+	color: #18737f;
+	font-size: 36px;
+	text-align: right;
+	padding: 20px;
+}
+.intro {
+	margin: 20px;
+	margin-top: 50px;
+}
+p {
+	font-size: 20px;
+	padding: 5px;
+	font-weight: bold;
+}
+.dreams {
+	align-content: center;
+	color: #18737f/*rgb(212,218,169)*/;
+	padding: 20px;
+	font-size: 128px;
+	width: 150px;
+}
+#pieChart {
+	left: 2px;
+}
+path.slice{
+	stroke-width:2px;
+}
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+text {
+      font: 10px sans-serif;
+}
+form {
+	font-size: 16px;
+}
+#legendDiv ul li {
+    
+}
+.fireworksBackground {
+  background: #373737;
+}
+circle {
+  fill: none;
+  stroke-width: 5px;
+}
+rect {
+  stroke-width:10px;
+}
+.greenchange:hover {
+  color:#c9a6ce;
+}
+.purplechange:hover {
+  color:#7864ac;
+}
+.bluechange:hover {
+  color:#434d92;
+}
+.greenshit {
+  font-weight:200;
+  font-size:20px;
+}
+.purpleshit{
+  font-weight:200;
+  font-size:20px;
+}
+.swagshit {
+  font-weight:200;
+  font-size:20px;
+}
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  fill:#77bbc5; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
+button {
+	background: #7864ac;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 26px;
+}
+#thankYou {
+	font-size: 28px;
+	padding: 5px;
+}

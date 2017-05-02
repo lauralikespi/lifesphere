@@ -1,0 +1,139 @@
+<!DOCTYPE html5>
+<meta charset="utf-8">
+<html>
+  <head>
+    <script src="https://use.fontawesome.com/b4ff8074fd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lora|Roboto" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/myjQuery.js"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row heading">
+        <div class="col-sm-8">
+          <p class="headingText">
+            <img src="css/img/logo.png" height="250px" width=auto>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p class="socialMedia">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-slack" aria-hidden="true"></i>
+          </p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row intro">
+        <h3> A lifestyle app allowing you to monitor spending, suggesting ways to save and hit those savings goals. </h3>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-5">
+          <h3 class="takeControl"> Take control of your spending. </h3>
+          <br>
+        </div>
+        <div class="col-sm-5">
+          <h3 class="saveDreams"> Save for your dreams. </h3>
+          <br>
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <br>
+        
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <i class="fa fa-home fa-5x dreams" aria-hidden="true"></i>
+            <div class="row">
+              <p> Your home. </p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <i class="fa fa-plane fa-5x dreams" aria-hidden="true"></i>
+            <div class="row">
+              <p> Your holidays. </p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <i class="fa fa-music fa-5x dreams" aria-hidden="true"></i>
+            <div class="row">
+              <p> Your hobbies. </p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <i class="fa fa-graduation-cap fa-5x dreams" aria-hidden="true"></i>
+            <div class="row">
+              <p> Your education. </p>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="signUpText">
+          <h4> Sign up to be one of the first nudgers: </h4>
+          <br>
+          <form>
+            <div class="col-sm-3">
+            Name:<br>
+            <input type="text" name="firstname"><br>
+            </div>
+            <div class="col-sm-3">
+            Email:<br>
+            <input type="text" name="lastname">
+            </div>
+          </form>
+        </div>
+        <button class="signUpButton" type="submit" value="Sign up" onclick="myFunction()">Sign Up!</button>
+        <div id="thankYou">
+          Thank for signing up, we'll be in touch shortly.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <h3 class="analytics"> Using your lifestyle data derived from your phone to provide analytics, insights and helpful advice. </h3>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+          <h2>Weekly Spending</h2>
+          <div id="legendDiv"></div>
+          <div>
+            <canvas id="canvas"></canvas>
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+        
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <h2>Spending Breakdown</h2>
+        <div id='dashboard'></div>
+      </div>  
+  
+    </div>
+    
+    <script src="js/pieChart.js"></script>
+    <script src="js/barChart.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/dashboardData.js"></script>
+  </body>
+</html>
